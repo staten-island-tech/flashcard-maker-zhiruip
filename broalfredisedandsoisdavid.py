@@ -12,6 +12,16 @@ class flashcardvalues:
         self.key == y
         self.value == x
 
+data = [
+    Card(f"{self.key}", "{self.value}"),
+    
+]
+
+flash_data = []
+
+
+
+
 
 def teacher():
     global x, y
@@ -19,5 +29,6 @@ def teacher():
     y = input("input your answer")
     print("stored into database")
     
+
 
     
